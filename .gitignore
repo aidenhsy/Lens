@@ -1,0 +1,94 @@
+# Xcode
+.DS_Store
+xcuserdata
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/*
+*.xcworkspace/xcuserdata
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata/*
+
+# Exclude xcschememanagement.plist files
+*.xcuserdatad/xcschemes/xcschememanagement.plist
+
+# Swift Package Manager
+Packages
+/.build
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/tests_output
+
+# Code Signing
+*.pem
+*.cer
+*.mobileprovision
+*.dmg
+
+# Temporary files
+*.swp
+*.lock
+*~
+
+# Others
+.idea/
+.vscode/
+*.hmap
+*.ipa
+*.app.dSYM.zip
+*.dSYM.zip
+*.dSYM
+*.crash
+*.log
+*.xcconfig
+*.xcconfig/
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.m
+*.orig
+*.userinterfacesettings
+*.playground
+*.llbuild/
+*.occbuild/
+*.r
+*.plist
+*.xcplayground/
+*.temp/
+*.tmp/
+*.temp/
+*.tmp/
+*.xcodeproj/
+*.xcscheme
+
+# Mac
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+._*
+
+# Thumbnails
+.TemporaryItems
+.Trashes
+.Spotlight-V100
+.DS_Store
+
