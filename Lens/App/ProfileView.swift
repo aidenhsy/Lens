@@ -23,7 +23,7 @@ struct ProfileView: View {
             }
         }
         .sheet(isPresented: $isPresented) {
-            TestModalView()
+            Test2ModalView()
         }
     }
 }
