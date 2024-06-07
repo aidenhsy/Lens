@@ -9,12 +9,22 @@ import SwiftUI
 struct ProfileView: View {
     // MARK: - PROPERTIES
 
+    @State private var isPresented = false
+
     // MARK: - BODY
 
     var body: some View {
         // Add your UI elements here
-        Text("Profile View")
-            .padding()
+        VStack {
+            Text("Profile View")
+                .padding()
+            Button("show Modal") {
+                self.isPresented = true
+            }
+        }
+        .sheet(isPresented: $isPresented) {
+            Text("hi")
+        }
     }
 }
 
