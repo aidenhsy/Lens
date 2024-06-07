@@ -13,7 +13,7 @@ struct Test2ModalView: View {
 
     var body: some View {
         // Add your UI elements here
-        Text("Modal Test 2")
+        Text("Modal Test 2 lalala")
             .padding()
     }
 }
